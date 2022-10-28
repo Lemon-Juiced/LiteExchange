@@ -2,8 +2,8 @@
   "type": "lexchange:add_item",
   "conditions": [
     {
-      "condition": "minecraft:killed_by_player",
-      "entity": "minecraft:zombie"
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/zombie"
     }
   ],
   "item": "lexchange:balance_shard"

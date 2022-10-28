@@ -22,4 +22,5 @@ public class BalanceStoneItem extends Item {
     public ItemStack getCraftingRemainingItem(ItemStack itemStack) {
         return new ItemStack(ModItems.BALANCE_STONE.get());
     }
+
 }
