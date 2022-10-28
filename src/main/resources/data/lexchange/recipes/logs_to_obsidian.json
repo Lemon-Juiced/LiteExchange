@@ -5,10 +5,10 @@
       "item": "lexchange:balance_stone"
     },
     {
-      "tag": "forge:logs/all"
+      "tag": "minecraft:logs"
     },
     {
-      "tag": "forge:logs/all"
+      "tag": "minecraft:logs"
     }
   ],
   "result": {
