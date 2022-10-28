@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lexchange:balance_stone"
+    },
+    {
+      "tag": "forge:ingots/bronze"
+    }
+  ],
+  "result": {
+    "tag": "forge:ingots/brass",
+    "count": 1
+  }
+}

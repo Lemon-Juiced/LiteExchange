@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lexchange:balance_stone"
+    },
+    {
+      "tag": "forge:ingots/lead"
+    },
+    {
+      "tag": "forge:ingots/lead"
+    },
+    {
+      "tag": "forge:ingots/lead"
+    },
+    {
+      "tag": "forge:ingots/lead"
+    },
+    {
+      "tag": "forge:ingots/lead"
+    },
+    {
+      "tag": "forge:ingots/lead"
+    },
+    {
+      "tag": "forge:ingots/lead"
+    },
+    {
+      "tag": "forge:ingots/lead"
+    }
+  ],
+  "result": {
+    "tag": "forge:ingots/silver",
+    "count": 1
+  }
+}
