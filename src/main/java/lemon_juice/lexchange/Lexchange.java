@@ -1,6 +1,7 @@
 package lemon_juice.lexchange;
 
 import com.mojang.logging.LogUtils;
+import lemon_juice.lexchange.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -16,6 +17,8 @@ public class Lexchange {
     private static final Logger LOGGER = LogUtils.getLogger();
     public Lexchange() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

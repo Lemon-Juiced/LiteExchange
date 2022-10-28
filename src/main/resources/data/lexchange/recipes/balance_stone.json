@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#S#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lexchange:balance_shard"
+    },
+    "S": {
+      "item": "lexchange:inert_stone"
+    }
+  },
+  "result": {
+    "item": "lexchange:balance_stone",
+    "count": 1
+  }
+}
