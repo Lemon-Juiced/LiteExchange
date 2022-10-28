@@ -13,7 +13,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Lexchange.MOD_ID);
 
     public static final RegistryObject<Item> BALANCE_SHARD = ITEMS.register("balance_shard", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.LEXCHANGE_TAB)));
-    public static final RegistryObject<Item> BALANCE_STONE = ITEMS.register("balance_stone", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.LEXCHANGE_TAB).stacksTo(1)));
+    public static final RegistryObject<Item> BALANCE_STONE = ITEMS.register("balance_stone", () -> new BalanceStoneItem(new Item.Properties().tab(ModCreativeModeTab.LEXCHANGE_TAB)));
     public static final RegistryObject<Item> INERT_STONE = ITEMS.register("inert_stone", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.LEXCHANGE_TAB)));
 
     public static void register(IEventBus eventBus){
