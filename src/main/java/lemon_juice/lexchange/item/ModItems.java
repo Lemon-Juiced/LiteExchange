@@ -2,7 +2,6 @@ package lemon_juice.lexchange.item;
 
 import lemon_juice.lexchange.Lexchange;
 import lemon_juice.lexchange.creativetab.ModCreativeModeTab;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
