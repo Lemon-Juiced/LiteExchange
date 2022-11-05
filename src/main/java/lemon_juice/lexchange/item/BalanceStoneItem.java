@@ -4,6 +4,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Rarity;
 
+import java.util.Random;
+
 public class BalanceStoneItem extends Item {
     public BalanceStoneItem(Properties p_41383_) {
         super(p_41383_);
