@@ -1,10 +1,10 @@
 {
-  "type": "lexchange:add_item",
   "conditions": [
     {
       "condition": "forge:loot_table_id",
       "loot_table_id": "minecraft:entities/zombie"
     }
   ],
-  "item": "lexchange:balance_shard"
+  "item": "lexchange:balance_shard",
+  "type": "lexchange:add_item"
 }
