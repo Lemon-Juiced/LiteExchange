@@ -35,6 +35,6 @@
     "lexchange:balance_shard_from_wither_skeleton",
     "lexchange:balance_shard_from_zoglin",
     "lexchange:balance_shard_from_zombie",
-    "lexchange:balance_shard_from_zombified_piglin",
+    "lexchange:balance_shard_from_zombified_piglin"
   ]
 }
