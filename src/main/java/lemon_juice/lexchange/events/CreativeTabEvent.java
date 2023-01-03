@@ -19,7 +19,6 @@ public class CreativeTabEvent {
                     .displayItems((features, output, hasPermissions) -> {
                         output.accept(new ItemStack(ModItems.BALANCE_SHARD.get()));
                         output.accept(new ItemStack(ModItems.BALANCE_STONE.get()));
-                        output.accept(new ItemStack(ModItems.BALANCE_SWORD.get()));
                         output.accept(new ItemStack(ModItems.INERT_STONE.get()));
                     })
                     .title(Component.translatable("itemGroup.lexchange"))

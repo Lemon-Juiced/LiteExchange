@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "lexchange:item/balance_sword"
-  }
-}
