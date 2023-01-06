@@ -1,7 +1,7 @@
 package lemon_juice.lexchange;
 
 import com.mojang.logging.LogUtils;
-import lemon_juice.lexchange.events.CreativeTabEvent;
+import lemon_juice.lexchange.creativetab.CreativeTab;
 import lemon_juice.lexchange.item.ModItems;
 import lemon_juice.lexchange.loot.ModLootModifiers;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,8 +23,9 @@ public class Lexchange {
         ModItems.register(modEventBus);
         ModLootModifiers.register(modEventBus);
 
+        modEventBus.addListener(CreativeTab::registerTab);
+
         modEventBus.addListener(this::commonSetup);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(CreativeTabEvent::onCreativeModeTabRegister);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
