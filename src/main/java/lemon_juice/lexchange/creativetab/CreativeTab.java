@@ -14,7 +14,7 @@ public class CreativeTab {
         event.registerCreativeModeTab(LEXCHANGE_TAB, builder -> builder
                 .title(Component.translatable("itemGroup.lexchange"))
                 .icon(() -> new ItemStack(ModItems.BALANCE_STONE.get()))
-                .displayItems((features, output, hasPermissions) -> {
+                .displayItems((features, output) -> {
                     output.accept(new ItemStack(ModItems.BALANCE_SHARD.get()));
                     output.accept(new ItemStack(ModItems.BALANCE_STONE.get()));
                     output.accept(new ItemStack(ModItems.INERT_STONE.get()));
