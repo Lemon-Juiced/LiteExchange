@@ -4,7 +4,7 @@ license="All rights reserved"
 
 [[mods]]
 modId="lexchange"
-version="1.19.4-1.0.4"
+version="1.19.4-1.0.5"
 displayName="Lite Exchange"
 logoFile="mod_icon.png"
 credits="Lemon_Juiced"

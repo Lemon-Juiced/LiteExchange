@@ -3,5 +3,10 @@
   "item.lexchange.balance_stone": "Balance Stone",
   "item.lexchange.inert_stone": "Inert Stone",
 
+  "advancements.lexchange:obtain_balance_shard.title": "Balance Breaker!",
+  "advancements.lexchange:obtain_balance_shard.description": "Obtain a Balance Shard",
+  "advancements.lexchange:obtain_balance_stone.title": "Equivalent Exchange!",
+  "advancements.lexchange:obtain_balance_stone.description": "Obtain a Balance Stone",
+
   "itemGroup.lexchange": "Lite Exchange"
 }

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "lexchange:balance_shard"
+    },
+    "title": {
+      "translate": "advancements.lexchange:obtain_balance_shard.title"
+    },
+    "description": {
+      "translate": "advancements.lexchange:obtain_balance_shard.description"
+    },
+    "background": "minecraft:textures/block/diamond_block.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "balance_shard"
+    ]
+  ],
+  "criteria": {
+    "balance_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lexchange:balance_shard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  }
+}
