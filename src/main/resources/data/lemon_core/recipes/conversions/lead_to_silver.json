@@ -30,7 +30,7 @@
     }
   ],
   "result": {
-    "tag": "forge:ingots/silver",
+    "item": "lemon_core:silver_ingot",
     "count": 1
   }
 }

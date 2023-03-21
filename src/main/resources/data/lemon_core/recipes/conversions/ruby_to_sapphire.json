@@ -5,11 +5,11 @@
       "item": "lexchange:balance_stone"
     },
     {
-      "tag": "forge:gems/sapphire"
+      "tag": "forge:gems/ruby"
     }
   ],
   "result": {
-    "tag": "forge:gems/peridot",
+    "item": "lemon_core:sapphire",
     "count": 1
   }
 }

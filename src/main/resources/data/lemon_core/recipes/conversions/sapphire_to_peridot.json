@@ -5,11 +5,11 @@
       "item": "lexchange:balance_stone"
     },
     {
-      "tag": "forge:ingots/brass"
+      "tag": "forge:gems/sapphire"
     }
   ],
   "result": {
-    "tag": "forge:ingots/bronze",
+    "item": "lemon_core:peridot",
     "count": 1
   }
 }

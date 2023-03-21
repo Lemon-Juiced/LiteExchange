@@ -9,7 +9,7 @@
     }
   ],
   "result": {
-    "tag": "forge:ingots/brass",
+    "item": "lemon_core:brass_ingot",
     "count": 1
   }
 }

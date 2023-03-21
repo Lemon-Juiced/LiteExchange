@@ -5,11 +5,11 @@
       "item": "lexchange:balance_stone"
     },
     {
-      "tag": "forge:gems/ruby"
+      "tag": "forge:ingots/silver"
     }
   ],
   "result": {
-    "tag": "forge:gems/sapphire",
-    "count": 1
+    "item": "lemon_core:lead_ingot",
+    "count": 8
   }
 }
