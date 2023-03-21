@@ -124,7 +124,7 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.19.4-45.0.9'
 
     // Lemon Core Optional Dependency
-    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4448624")
+    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4448794")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
