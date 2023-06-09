@@ -8,5 +8,7 @@
   "advancements.lexchange:obtain_balance_stone.title": "Equivalent Exchange!",
   "advancements.lexchange:obtain_balance_stone.description": "Obtain a Balance Stone",
 
+  "drop_percentage.tooltip": "4% Drop Chance on All Hostile Mobs",
+
   "itemGroup.lexchange": "Lite Exchange"
 }

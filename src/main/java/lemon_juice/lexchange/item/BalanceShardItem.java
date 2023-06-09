@@ -18,7 +18,7 @@ public class BalanceShardItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-        components.add(Component.literal("4% Drop Chance on All Hostile Mobs").withStyle(ChatFormatting.YELLOW));
+        components.add(Component.translatable("drop_percentage.tooltip").withStyle(ChatFormatting.YELLOW));
     }
 
     @Override
