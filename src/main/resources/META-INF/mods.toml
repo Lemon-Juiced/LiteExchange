@@ -1,10 +1,10 @@
 modLoader="javafml"
 loaderVersion="[46,)"
-license="All rights reserved"
+license="GNU General Purpose License v3 (GPLv3)"
 
 [[mods]]
 modId="lexchange"
-version="1.20-1.0.7"
+version="1.20-1.0.8"
 displayName="Lite Exchange"
 logoFile="mod_icon.png"
 credits="Lemon_Juiced"
