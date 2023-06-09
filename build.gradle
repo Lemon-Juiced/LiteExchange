@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.19.4-1.0.6'
+version = '1.20-1.0.7'
 group = 'lemon_juice.lexchange' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'lexchange'
 
@@ -116,15 +116,18 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
+    maven { url = "https://maven.theillusivec4.top/"}
+    maven { url = "https://dvs1.progwml6.com/files/maven/"}
+    maven { url = "https://modmaven.dev"}
     maven { url = "https://minecraft.curseforge.com/api/maven/"}
     maven { url = "https://www.cursemaven.com"}
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.4-45.0.9'
+    minecraft 'net.minecraftforge:forge:1.20-46.0.2'
 
     // Lemon Core Optional Dependency
-    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4448794")
+    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4574930")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

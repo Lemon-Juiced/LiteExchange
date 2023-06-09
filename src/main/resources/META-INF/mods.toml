@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[45,)"
+loaderVersion="[46,)"
 license="All rights reserved"
 
 [[mods]]
 modId="lexchange"
-version="1.19.4-1.0.6"
+version="1.20-1.0.7"
 displayName="Lite Exchange"
 logoFile="mod_icon.png"
 credits="Lemon_Juiced"
@@ -17,18 +17,18 @@ A lite retro-exchange-styled mod.
 [[dependencies.lexchange]]
     modId="forge"
     mandatory=true
-    versionRange="[45,)"
+    versionRange="[46,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.lexchange]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.4,1.20)"
+    versionRange="[1.20, 1.21)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.lexchange]]
     modId="lemon_core"
     mandatory=false
-    versionRange="[1.19.4-1.0.2,)"
+    versionRange="[1.20-1.0.7,)"
     ordering="NONE"
     side="BOTH"
