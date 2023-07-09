@@ -1,6 +1,7 @@
 package lemon_juice.lexchange;
 
 import lemon_juice.lexchange.creativetab.ModCreativeTab;
+import lemon_juice.lexchange.handler.MobDropHandler;
 import lemon_juice.lexchange.item.ModItems;
 import lemon_juice.lexchange.loot.ModLootModifiers;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,12 +28,16 @@ public class Lexchange {
         ModCreativeTab.register(modEventBus);
         modEventBus.addListener(ModCreativeTab::registerTabs);
 
+        // Register commonSetup (Mob Drops)
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {}
+    private void commonSetup(final FMLCommonSetupEvent event) {
+        // Register Balance Shard Drops (Independent of Global Loot Modifiers)
+        MinecraftForge.EVENT_BUS.register(new MobDropHandler());
+    }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class ClientModEvents {
