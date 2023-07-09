@@ -21,9 +21,6 @@ public class Lexchange {
         // Register Items
         ModItems.register(modEventBus);
 
-        // Register Mod Loot Modifiers
-        ModLootModifiers.register(modEventBus);
-
         // Register Creative Tab
         ModCreativeTab.register(modEventBus);
         modEventBus.addListener(ModCreativeTab::registerTabs);
