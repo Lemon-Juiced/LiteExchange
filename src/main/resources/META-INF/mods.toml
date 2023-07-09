@@ -4,7 +4,7 @@ license="GNU General Purpose License v3 (GPLv3)"
 
 [[mods]]
 modId="lexchange"
-version="1.20.1-1.0.13"
+version="1.20.1-1.0.14"
 displayName="Lite Exchange"
 logoFile="lexchange.png"
 authors="Lemon_Juiced & Scalar Team"
