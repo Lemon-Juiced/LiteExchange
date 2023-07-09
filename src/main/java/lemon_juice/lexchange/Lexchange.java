@@ -3,7 +3,6 @@ package lemon_juice.lexchange;
 import lemon_juice.lexchange.creativetab.ModCreativeTab;
 import lemon_juice.lexchange.handler.MobDropHandler;
 import lemon_juice.lexchange.item.ModItems;
-import lemon_juice.lexchange.loot.ModLootModifiers;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
