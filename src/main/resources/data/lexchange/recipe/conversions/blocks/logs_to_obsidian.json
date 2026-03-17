@@ -1,33 +1,15 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "tag": "minecraft:logs"
-    },
-    {
-      "tag": "minecraft:logs"
-    },
-    {
-      "tag": "minecraft:logs"
-    },
-    {
-      "tag": "minecraft:logs"
-    },
-    {
-      "tag": "minecraft:logs"
-    },
-    {
-      "tag": "minecraft:logs"
-    },
-    {
-      "tag": "minecraft:logs"
-    },
-    {
-      "tag": "minecraft:logs"
-    }
+    "lexchange:balance_stone",
+    "#minecraft:logs",
+    "#minecraft:logs",
+    "#minecraft:logs",
+    "#minecraft:logs",
+    "#minecraft:logs",
+    "#minecraft:logs",
+    "#minecraft:logs",
+    "#minecraft:logs"
   ],
   "result": {
     "id": "minecraft:obsidian",

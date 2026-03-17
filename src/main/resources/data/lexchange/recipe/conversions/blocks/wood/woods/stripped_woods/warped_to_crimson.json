@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:stripped_warped_hyphae"
-    }
+    "lexchange:balance_stone",
+    "minecraft:stripped_warped_hyphae"
   ],
   "result": {
     "id": "minecraft:stripped_crimson_hyphae",

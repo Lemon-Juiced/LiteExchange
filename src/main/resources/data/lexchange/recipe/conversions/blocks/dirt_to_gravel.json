@@ -1,24 +1,14 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:dirt"
-    },
-    {
-      "item": "minecraft:dirt"
-    },
-    {
-      "item": "minecraft:dirt"
-    },
-    {
-      "item": "minecraft:dirt"
-    }
+    "lexchange:balance_stone",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt"
   ],
   "result": {
-    "idm": "minecraft:gravel",
+    "id": "minecraft:gravel",
     "count": 1
   }
 }

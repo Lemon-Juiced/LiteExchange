@@ -1,21 +1,11 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:charcoal"
-    },
-    {
-      "item": "minecraft:charcoal"
-    },
-    {
-      "item": "minecraft:charcoal"
-    },
-    {
-      "item": "minecraft:charcoal"
-    }
+    "lexchange:balance_stone",
+    "minecraft:charcoal",
+    "minecraft:charcoal",
+    "minecraft:charcoal",
+    "minecraft:charcoal"
   ],
   "result": {
     "id": "minecraft:coal",

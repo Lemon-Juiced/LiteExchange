@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:stripped_warped_stem"
-    }
+    "lexchange:balance_stone",
+    "minecraft:stripped_warped_stem"
   ],
   "result": {
     "id": "minecraft:stripped_crimson_stem",

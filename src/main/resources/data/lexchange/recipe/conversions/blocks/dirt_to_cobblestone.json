@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:dirt"
-    }
+    "lexchange:balance_stone",
+    "minecraft:dirt"
   ],
   "result": {
     "id": "minecraft:cobblestone",

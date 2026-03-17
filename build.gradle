@@ -1,7 +1,8 @@
 plugins {
     id 'java-library'
     id 'maven-publish'
-    id 'net.neoforged.moddev' version '1.0.21'
+    id 'net.neoforged.moddev' version '2.0.140'
+    id 'idea'
 }
 
 tasks.named('wrapper', Wrapper).configure {
@@ -10,6 +11,12 @@ tasks.named('wrapper', Wrapper).configure {
 
 version = mod_version
 group = mod_group_id
+
+sourceSets.main.resources {
+    srcDir('src/generated/resources')
+    exclude("**/*.bbmodel")
+    exclude("src/generated/**/.cache")
+}
 
 repositories {
     mavenLocal()
@@ -51,8 +58,7 @@ neoForge {
         }
 
         data {
-            data()
-
+            clientData()
             programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
         }
 
@@ -70,16 +76,17 @@ neoForge {
     }
 }
 
-sourceSets.main.resources { srcDir 'src/generated/resources' }
-
 configurations {
     runtimeClasspath.extendsFrom localRuntime
 }
 
 dependencies {
-    // QoL Stuff
-    implementation "curse.maven:jade-324717:5706149" // Jade
-    implementation "curse.maven:jei-238222:5718399" // JEI
+    // Scalar Core Dependency
+    implementation "curse.maven:scalar-core-1112771:7772620" // Scalar Core
+
+    // QoL For Testing
+    implementation "curse.maven:jade-324717:7742809" // Jade
+    implementation "curse.maven:jei-238222:7428957" // JEI
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
@@ -87,14 +94,10 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             minecraft_version      : minecraft_version,
             minecraft_version_range: minecraft_version_range,
             neo_version            : neo_version,
-            neo_version_range      : neo_version_range,
-            loader_version_range   : loader_version_range,
             mod_id                 : mod_id,
             mod_name               : mod_name,
             mod_license            : mod_license,
             mod_version            : mod_version,
-            mod_authors            : mod_authors,
-            mod_description        : mod_description
     ]
     inputs.properties replaceProperties
     expand replaceProperties
@@ -104,6 +107,7 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
 
 sourceSets.main.resources.srcDir generateModMetadata
 neoForge.ideSyncTask generateModMetadata
+
 
 publishing {
     publications {

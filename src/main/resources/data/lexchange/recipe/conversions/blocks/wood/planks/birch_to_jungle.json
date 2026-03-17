@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:birch_planks"
-    }
+    "lexchange:balance_stone",
+    "minecraft:birch_planks"
   ],
   "result": {
     "id": "minecraft:jungle_planks",

@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:warped_fungus"
-    }
+    "lexchange:balance_stone",
+    "minecraft:warped_fungus"
   ],
   "result": {
     "id": "minecraft:crimson_fungus",

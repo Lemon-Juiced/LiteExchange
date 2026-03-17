@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:acacia_wood"
-    }
+    "lexchange:balance_stone",
+    "minecraft:acacia_wood"
   ],
   "result": {
     "id": "minecraft:dark_oak_wood",

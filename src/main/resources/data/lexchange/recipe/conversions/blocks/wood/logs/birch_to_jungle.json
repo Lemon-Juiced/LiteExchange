@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:birch_log"
-    }
+    "lexchange:balance_stone",
+    "minecraft:birch_log"
   ],
   "result": {
     "id": "minecraft:jungle_log",

@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:jungle_planks"
-    }
+    "lexchange:balance_stone",
+    "minecraft:jungle_planks"
   ],
   "result": {
     "id": "minecraft:acacia_planks",

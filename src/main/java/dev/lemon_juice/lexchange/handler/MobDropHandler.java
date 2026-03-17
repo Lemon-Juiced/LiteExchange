@@ -4,7 +4,7 @@ import dev.lemon_juice.lexchange.item.ModItems;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.GameRules;
+import net.minecraft.world.level.gamerules.GameRules;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.entity.living.LivingDropsEvent;
 
@@ -16,7 +16,7 @@ public class MobDropHandler {
         var entity = event.getEntity();
         var level = event.getEntity().level();
 
-        if(!level.getGameRules().getBoolean(GameRules.RULE_DOMOBLOOT)) return;
+        if (!(level instanceof net.minecraft.server.level.ServerLevel serverLevel) || !serverLevel.getGameRules().get(GameRules.MOB_DROPS)) return;
 
         var drops = event.getDrops();
         int balanceShardDropChance = 4; // Out of 100

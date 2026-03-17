@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:stripped_cherry_log"
-    }
+    "lexchange:balance_stone",
+    "minecraft:stripped_pale_oak_log"
   ],
   "result": {
     "id": "minecraft:stripped_bamboo_block",

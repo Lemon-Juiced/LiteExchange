@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:mangrove_propagule"
-    }
+    "lexchange:balance_stone",
+    "minecraft:mangrove_propagule"
   ],
   "result": {
     "id": "minecraft:cherry_sapling",

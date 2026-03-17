@@ -1,0 +1,11 @@
+﻿{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "lexchange:balance_stone",
+    "minecraft:cherry_planks"
+  ],
+  "result": {
+    "id": "minecraft:pale_oak_planks",
+    "count": 1
+  }
+}

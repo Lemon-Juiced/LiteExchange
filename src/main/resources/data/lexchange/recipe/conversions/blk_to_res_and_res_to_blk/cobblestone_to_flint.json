@@ -1,21 +1,11 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "tag": "forge:cobblestone"
-    },
-    {
-      "tag": "forge:cobblestone"
-    },
-    {
-      "tag": "forge:cobblestone"
-    },
-    {
-      "tag": "forge:cobblestone"
-    }
+    "lexchange:balance_stone",
+    "#forge:cobblestone",
+    "#forge:cobblestone",
+    "#forge:cobblestone",
+    "#forge:cobblestone"
   ],
   "result": {
     "id": "minecraft:flint",

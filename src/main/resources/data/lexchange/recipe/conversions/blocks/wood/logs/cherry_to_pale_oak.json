@@ -1,0 +1,11 @@
+﻿{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "lexchange:balance_stone",
+    "minecraft:cherry_log"
+  ],
+  "result": {
+    "id": "minecraft:pale_oak_log",
+    "count": 1
+  }
+}

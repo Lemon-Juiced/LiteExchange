@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:jungle_sapling"
-    }
+    "lexchange:balance_stone",
+    "minecraft:jungle_sapling"
   ],
   "result": {
     "id": "minecraft:acacia_sapling",

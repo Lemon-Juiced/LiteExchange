@@ -1,0 +1,11 @@
+﻿{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "lexchange:balance_stone",
+    "minecraft:stripped_cherry_wood"
+  ],
+  "result": {
+    "id": "minecraft:stripped_pale_oak_block",
+    "count": 1
+  }
+}

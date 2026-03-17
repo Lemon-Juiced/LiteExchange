@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:grass_block"
-    }
+    "lexchange:balance_stone",
+    "minecraft:grass_block"
   ],
   "result": {
     "id": "minecraft:sand",

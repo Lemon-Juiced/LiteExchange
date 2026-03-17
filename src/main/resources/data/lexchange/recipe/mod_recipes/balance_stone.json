@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
@@ -6,12 +6,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "lexchange:balance_shard"
-    },
-    "S": {
-      "item": "lexchange:inert_stone"
-    }
+    "#": "lexchange:balance_shard",
+    "S": "lexchange:inert_stone"
   },
   "result": {
     "id": "lexchange:balance_stone",

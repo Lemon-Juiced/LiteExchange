@@ -3,12 +3,9 @@ package dev.lemon_juice.lexchange;
 import dev.lemon_juice.lexchange.creativetab.ModCreativeTab;
 import dev.lemon_juice.lexchange.handler.MobDropHandler;
 import dev.lemon_juice.lexchange.item.ModItems;
-import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
@@ -37,10 +34,4 @@ public class Lexchange {
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {}
-
-    @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {}
-    }
 }

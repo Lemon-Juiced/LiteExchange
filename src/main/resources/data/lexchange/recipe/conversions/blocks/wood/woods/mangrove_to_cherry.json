@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:mangrove_wood"
-    }
+    "lexchange:balance_stone",
+    "minecraft:mangrove_wood"
   ],
   "result": {
     "id": "minecraft:cherry_wood",

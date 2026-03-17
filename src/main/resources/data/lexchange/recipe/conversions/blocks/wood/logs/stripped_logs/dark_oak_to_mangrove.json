@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:stripped_dark_oak_log"
-    }
+    "lexchange:balance_stone",
+    "minecraft:stripped_dark_oak_log"
   ],
   "result": {
     "id": "minecraft:stripped_mangrove_log",

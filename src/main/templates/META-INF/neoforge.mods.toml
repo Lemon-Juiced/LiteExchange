@@ -1,5 +1,4 @@
-modLoader="javafml"
-loaderVersion="${loader_version_range}"
+# License
 license="${mod_license}"
 
 [[mods]]
@@ -7,18 +6,20 @@ modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
 logoFile= "lexchange.png"
-authors="${mod_authors}"
-description='''${mod_description}'''
+authors="Lemon_Juiced & Scalar Team"
+description='''A lite retro-exchange-styled mod.'''
 
+# Dependencies
 [[dependencies.${mod_id}]]
     modId="neoforge"
-    mandatory=true
-    versionRange="${neo_version_range}"
+    type="required"
+    versionRange="[${neo_version},)"
     ordering="NONE"
     side="BOTH"
+
 [[dependencies.${mod_id}]]
     modId="minecraft"
-    mandatory=true
+    type="required"
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"

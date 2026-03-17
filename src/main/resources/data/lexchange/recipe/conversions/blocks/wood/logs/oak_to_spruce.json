@@ -1,12 +1,8 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:oak_log"
-    }
+    "lexchange:balance_stone",
+    "minecraft:oak_log"
   ],
   "result": {
     "id": "minecraft:spruce_log",

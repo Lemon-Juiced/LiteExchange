@@ -1,15 +1,9 @@
-{
+﻿{
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "lexchange:balance_stone"
-    },
-    {
-      "item": "minecraft:copper_ingot"
-    },
-    {
-      "item": "minecraft:copper_ingot"
-    }
+    "lexchange:balance_stone",
+    "minecraft:copper_ingot",
+    "minecraft:copper_ingot"
   ],
   "result": {
     "id": "minecraft:iron_ingot",

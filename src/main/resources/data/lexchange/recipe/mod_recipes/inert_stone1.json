@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "GRG",
@@ -6,15 +6,9 @@
     "GRG"
   ],
   "key": {
-    "G": {
-      "item": "minecraft:glowstone_dust"
-    },
-    "R": {
-      "item": "minecraft:redstone"
-    },
-    "D": {
-      "item": "minecraft:diamond"
-    }
+    "G": "minecraft:glowstone_dust",
+    "R": "minecraft:redstone",
+    "D": "minecraft:diamond"
   },
   "result": {
     "id": "lexchange:inert_stone",
