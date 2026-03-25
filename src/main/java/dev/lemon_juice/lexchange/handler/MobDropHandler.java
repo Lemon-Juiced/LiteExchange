@@ -1,6 +1,6 @@
 package dev.lemon_juice.lexchange.handler;
 
-import dev.lemon_juice.lexchange.item.ModItems;
+import dev.lemon_juice.lexchange.item.LiteExchangeItems;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.item.ItemStack;
@@ -23,6 +23,6 @@ public class MobDropHandler {
         Random random = new Random();
 
         if (entity instanceof Monster && random.nextInt(0, 100) < balanceShardDropChance)
-            drops.add(new ItemEntity(level, entity.getX(), entity.getY(), entity.getZ(), new ItemStack(ModItems.BALANCE_SHARD.get())));
+            drops.add(new ItemEntity(level, entity.getX(), entity.getY(), entity.getZ(), new ItemStack(LiteExchangeItems.BALANCE_SHARD.get())));
     }
 }

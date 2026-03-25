@@ -3,7 +3,7 @@
   "item.lexchange.balance_stone": "Balance Stone",
   "item.lexchange.inert_stone": "Inert Stone",
 
-  "drop_percentage.tooltip": "4% Drop Chance on All Hostile Mobs",
+  "tooltip.lexchange.drop_percentage": "4% Drop Chance on All Hostile Mobs",
 
-  "itemGroup.lexchange": "Lite Exchange"
+  "itemGroup.lexchange.lite_exchange": "Lite Exchange"
 }

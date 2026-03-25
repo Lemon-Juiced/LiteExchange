@@ -1,8 +1,8 @@
 package dev.lemon_juice.lexchange;
 
-import dev.lemon_juice.lexchange.creativetab.ModCreativeTab;
+import dev.lemon_juice.lexchange.creativetab.LiteExchangeCreativeTab;
 import dev.lemon_juice.lexchange.handler.MobDropHandler;
-import dev.lemon_juice.lexchange.item.ModItems;
+import dev.lemon_juice.lexchange.item.LiteExchangeItems;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
@@ -10,19 +10,19 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-@Mod(Lexchange.MOD_ID)
-public class Lexchange {
+@Mod(LiteExchange.MOD_ID)
+public class LiteExchange {
     public static final String MOD_ID = "lexchange";
-    public Lexchange(IEventBus modEventBus) {
+    public LiteExchange(IEventBus modEventBus) {
         // Register commonSetup (Mob Drops)
         modEventBus.addListener(this::commonSetup);
 
         // Register Items
-        ModItems.register(modEventBus);
+        LiteExchangeItems.register(modEventBus);
 
         // Register Creative Tab
-        ModCreativeTab.register(modEventBus);
-        modEventBus.addListener(ModCreativeTab::registerTabs);
+        LiteExchangeCreativeTab.register(modEventBus);
+        modEventBus.addListener(LiteExchangeCreativeTab::registerTabs);
 
         NeoForge.EVENT_BUS.register(this);
     }

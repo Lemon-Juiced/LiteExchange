@@ -1,7 +1,7 @@
 plugins {
     id 'java-library'
     id 'maven-publish'
-    id 'net.neoforged.moddev' version '2.0.140'
+    id 'net.neoforged.moddev' version '2.0.141'
     id 'idea'
 }
 
@@ -29,20 +29,14 @@ base {
     archivesName = mod_id
 }
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
 
 neoForge {
     version = project.neo_version
 
-    parchment {
-        mappingsVersion = project.parchment_mappings_version
-        minecraftVersion = project.parchment_minecraft_version
-    }
-
     runs {
         client {
             client()
-
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
 
@@ -64,7 +58,6 @@ neoForge {
 
         configureEach {
             systemProperty 'forge.logging.markers', 'REGISTRIES'
-
             logLevel = org.slf4j.event.Level.DEBUG
         }
     }
@@ -82,11 +75,11 @@ configurations {
 
 dependencies {
     // Scalar Core Dependency
-    implementation "curse.maven:scalar-core-1112771:7772620" // Scalar Core
+    implementation "curse.maven:scalar-core-1112771:7809174" // Scalar Core
 
     // QoL For Testing
-    implementation "curse.maven:jade-324717:7742809" // Jade
-    implementation "curse.maven:jei-238222:7428957" // JEI
+    //implementation "curse.maven:jade-324717:7742809" // Jade
+    //implementation "curse.maven:jei-238222:7428957" // JEI
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {

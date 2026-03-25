@@ -6,15 +6,14 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
-@Mod(value = Lexchange.MOD_ID, dist = Dist.CLIENT)
+@Mod(value = LiteExchange.MOD_ID, dist = Dist.CLIENT)
 
-@EventBusSubscriber(modid = Lexchange.MOD_ID, value = Dist.CLIENT)
-public class LexchangeClient {
-    public LexchangeClient(ModContainer container) {
+@EventBusSubscriber(modid = LiteExchange.MOD_ID, value = Dist.CLIENT)
+public class LiteExchangeClient {
+    public LiteExchangeClient(ModContainer container) {
         container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
     }
 

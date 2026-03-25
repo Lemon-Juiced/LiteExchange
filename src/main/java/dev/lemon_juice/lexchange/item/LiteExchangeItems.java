@@ -1,14 +1,14 @@
 package dev.lemon_juice.lexchange.item;
 
-import dev.lemon_juice.lexchange.Lexchange;
+import dev.lemon_juice.lexchange.LiteExchange;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-public class ModItems {
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Lexchange.MOD_ID);
+public class LiteExchangeItems {
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(LiteExchange.MOD_ID);
 
     public static final DeferredItem<Item> BALANCE_SHARD = ITEMS.registerItem("balance_shard", BalanceShardItem::new, properties -> properties.rarity(Rarity.RARE));
     public static final DeferredItem<Item> BALANCE_STONE = ITEMS.registerItem("balance_stone", BalanceStoneItem::new, properties -> properties.rarity(Rarity.EPIC).stacksTo(1));
