@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     "lexchange:balance_stone",
-    "#forge:cobblestone"
+    "#c:cobblestones"
   ],
   "result": {
     "id": "minecraft:grass_block",
