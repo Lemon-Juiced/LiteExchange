@@ -75,8 +75,8 @@ configurations {
 
 dependencies {
     // QoL For Testing
-    implementation "curse.maven:jade-324717:7817285" // Jade
-    implementation "curse.maven:jei-238222:7861613" // JEI
+    implementation "curse.maven:jade-324717:7903350" // Jade
+    implementation "curse.maven:jei-238222:7904641" // JEI
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
